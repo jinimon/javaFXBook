@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.yedam.book.BookController" stylesheets="@myStyle.css">
+	<center>
+		<TableView fx:id="tableView" prefWidth="450"
+			prefHeight="200">
+			<columns>
+				<TableColumn prefWidth="100" resizable="false"
+					text="도서명" />
+				<TableColumn prefWidth="130" resizable="false"
+					text="저자" />
+				<TableColumn prefWidth="100" resizable="false"
+					text="출판사" />
+				<TableColumn prefWidth="100" resizable="false"
+					text="가격" />
+			</columns>
+		</TableView>
+	</center>
+	<bottom>
+		<HBox prefHeight="50" alignment="CENTER" spacing="20">
+			<children>
+				<Button fx:id="btnPrev" text="Prev" />
+				<Button fx:id="btnAdd" text="Add" />
+				<Button fx:id="btnDelete" text="Delete" />
+				<Button fx:id="btnNext" text="Next" />
+			</children>
+		</HBox>
+	</bottom>
+</BorderPane>

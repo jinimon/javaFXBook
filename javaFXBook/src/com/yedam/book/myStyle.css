@@ -1,0 +1,30 @@
+BorderPane, AnchorPane {
+	-fx-background-color: #B6CEC7;
+}
+
+Button {
+	-fx-border-color: white;
+	-fx-border-radius: 5;
+	-fx-text-fill: white;
+	-fx-background-color: #849FAD;
+}
+
+#btnAdd {
+	-fx-background-color: #6BA292;
+}
+
+#btnBarChart {
+	-fx-background-color: #FCBB6D;
+}
+
+#btnDelete {
+	-fx-background-color: #D8737F;
+}
+
+#btnPrev {
+	-fx-background-color: #FFA4B6;
+}
+
+#btnNext {
+	-fx-background-color: #B6A3C3;
+}
